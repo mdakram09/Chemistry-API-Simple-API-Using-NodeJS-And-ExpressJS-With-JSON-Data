@@ -4,7 +4,7 @@ var elements = JSON.parse(data);
 const express = require('express');
 const app = express();
 const cors = require('cors');
-var PORT = 5000;
+var PORT = 'https://chemistryapi.herokuapp.com/';
 
 app.listen(PORT, () => console.log('Server Start at 5000 Port'));
 
